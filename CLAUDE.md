@@ -10,8 +10,10 @@ Projeto de automação editorial de conteúdo sobre cefaleia e enxaqueca.
 
 ## Fluxo de trabalho
 
-- Enviar ao GitHub (`git push`) somente quando a autora pedir.
-- Mudanças maiores: branch separado + pull request para revisão antes de entrar no `main`.
+- Autorização permanente da autora: enviar ao GitHub (`git push`) direto no `main` sempre que houver alteração concluída, sem pedir confirmação.
+- Não usar branches nem pull requests, salvo se a autora pedir.
+- Antes de enviar, conferir o conteúdo; nunca reescrever o histórico (`push --force`).
+- Ao terminar, informar em linguagem simples o que foi enviado.
 - Mensagens de commit em português.
 
 ## Regras editoriais aprovadas
