@@ -2,6 +2,22 @@
 
 Projeto de automação editorial de conteúdo sobre cefaleia e enxaqueca.
 
+## Comece aqui, em toda sessão (regra fixa)
+
+O trabalho deste projeto fica no **Dropbox**, na pasta `/Claude Code/Headache Editorial Automation/`. Este repositório guarda só estas regras de partida.
+
+Antes de responder ou de fazer qualquer coisa:
+
+1. Ler, nessa pasta do Dropbox, o arquivo `CLAUDE.md` (regras completas do projeto) e o handoff de data e letra maiores (`HANDOFF-AAAA-MM-DD[letra].md`: é o estado atual do trabalho).
+2. Nunca pedir ao Dr. Feldman que cole ou reenvie o que está no Dropbox: ler a pasta.
+3. Tratá-lo por "você", nunca "senhor". Sempre em português do Brasil. Sem jargão.
+4. No que é técnico, decidir, fazer e avisar. Perguntar só o que é conduta médica, opinião dele ou voz.
+5. Ao terminar, atualizar o handoff no Dropbox e acrescentar a linha da sessão em `SESSOES.md`, sem ele pedir.
+
+Como ler e gravar no Dropbox: o conector lista, lê e cria arquivos novos, mas não sobrescreve. Para atualizar um arquivo, usar a API com as variáveis de ambiente `DROPBOX_APP_KEY`, `DROPBOX_APP_SECRET` e `DROPBOX_REFRESH_TOKEN` (hosts `api.dropboxapi.com` e `content.dropboxapi.com`; nunca `api.dropbox.com`), pelo cliente `codigo/hea/dbx.py` da própria pasta. Nunca gravar nem imprimir credenciais.
+
+Onde as regras deste arquivo e as do `CLAUDE.md` do Dropbox divergirem, vale o do Dropbox, que é o mais atualizado.
+
 ## Repositório (regra fixa)
 
 - O repositório deste trabalho é **exclusivamente** `enxaqueca/headache-editorial-automation`.
